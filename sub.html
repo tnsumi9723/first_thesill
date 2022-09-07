@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/f0729c0c03.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <title>The Sill</title>
+  <link href="css/reset.css" rel="stylesheet">
+  <link href="css/common.css" rel="stylesheet">
+  <link href="css/sub.css" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+ 
+
+  <!--header-->  
+  <header>
+    <div class = "top">
+      <div id="toplogo">
+        New in!Floor plants and large planters
+      </div>  
+    </div>
+    <div class = "bottom">
+      <div id="logo">
+       <a href="index.html" target="_self"> <img src="img/5.jpg" alt="logo"></a>
+     </div>
+     <div class="imgbox1">
+       <a href="#"> <img src = "img/icon4.jpg" alt="icon4"> </a>
+       <span class="text1"> <a href="#"> Resources</a></span>
+       <span class="text2"> <a href="#"> FAQ, Blog, Support</a></span>
+     </div>
+     <div class="imgbox1">
+      <a href="#">  <img src = "img/icon5.jpg" alt="icon5"> </a>
+      <span class="text1"> <a href="#"> Visit The Sill</a></span>
+      <span class="text2">  <a href="#"> Store Locator</a></span>  
+    </div>
+    <div class="imgbox1">
+      <a href="#">  <img src = "img/icon6.jpg" alt="icon6"></a>
+      <span class="text1"> <a href="#"> Hello, Sign In</a></span>
+      <span class="text2"> <a href="#"> Your Account</a></span>
+    </div>
+    <div class="imgbox3">
+      <a href="#">  <img src = "img/icon7.jpg" alt="icon7"></a>
+    </div>
+    <div class="imgbox2">
+      <a href="#">   <img src = "img/icon8.jpg" alt="icon8"></a>
+      <span class="text1"> <a href="#"> (0)</a></span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Plants</a></li>
+        <li>Mother's Day</li>
+        <li><a href="#">New Arrivals</a></li>
+        <li><a href="#">Plant Care</a></li>
+        <li><a href="#">Home & Decor</a></li>
+        <li><a href="#">Gifts</a></li>
+        <li><a href="#">Corporate Gifting</a></li>
+        <li><a href="#">Subscriptions</a></li>
+      </ul>
+
+    </nav>
+
+  </div>
+</header>
+
+<!--sub-->
+<div id="sub">
+
+  <!--2nd nav-->
+  <div id="submenu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li>/</li>
+      <li><a href="#">Mother's Day</a></li>
+      <li>/</li>
+      <li class="strong"><a href="#">Monstera Deliciosa</a></li>
+    </ul>
+  </div>
+
+
+  <div id="box1">
+  <div id="box">
+
+   <img src="img/product1.jpg" alt="product1" id="cimg" class="w1"> 
+
+   <div id="product">
+    <ul>
+      <li class="picimage"><img src="img/product1.jpg" alt="product1"></li>
+      <li class="picimage"><img src="img/product2.jpg" alt="product2"></li>
+      <li class="picimage"><img src="img/product3.jpg" alt="product3"></li>
+      <li class="picimage"><img src="img/product4.jpg" alt="product4"></li>
+    </ul>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function(){
+    $("#product li:first-child").mouseover(function(){
+      $("#cimg").attr("src","img/product1.jpg");
+    });
+    $("#product li:nth-child(2)").mouseover(function(){
+      $("#cimg").attr("src","img/product2.jpg");
+    });
+    $("#product li:nth-child(3)").mouseover(function(){
+      $("#cimg").attr("src","img/product3.jpg");
+    });
+    $("#product li:nth-child(4)").mouseover(function(){
+      $("#cimg").attr("src","img/product4.jpg");
+    });
+  });
+
+</script>
+
+
+
+<div id="context">
+  <h1>Monstera Deliciosa</h1>
+  <table>
+    <tr>
+      <td class="t1">Price</td>
+      <td>$38</td>
+    </tr>
+    <tr>
+      <td>For Membership</td>
+      <td class="t2">$34</td>
+    </tr>
+    <tr>
+      <td>Shipping Charge</td>
+      <td>$15</td>
+      <tr>
+        <td></td>
+        <td class="t3">Free Shipping for Membership</td>
+      </tr>
+    </tr>
+    <tr>
+      <td>Pot Size</td>
+      <td>
+        <button class="btn1">Medium-6"</button>
+        <button class="btn1">Large-10"</button>
+        <span><a href="#">Size Guide</a></span>
+      </td>
+    </tr>
+    <tr>
+      <td>Pot Color</td>
+      <td>
+        <select name="select" id="select" >
+          <option>rose wood</option>
+          <option>beige</option>
+          <option>Black</option>
+          <option>Wood</option>
+          <option>Upcycled only Gray</option>
+          
+        </select>
+      </td>
+      
+    </tr>
+    <tr>
+      <td>Planter</td>
+      <td>
+        <select name="select" id="select" >
+          <option>Grow Pot</option>
+          <option>Grant</option>
+          <option>Hyde</option>
+          <option>Upcycled</option>
+        </select>
+        <span><a href="#">Style Guide</a></span>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Add to Cart</td>
+      <td>
+        <select name="select" id="select" >
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+        </select>
+      </td>
+    </tr>
+
+  </table>
+  <div class="box1">
+    <a href="#">Choose your planter style & color</a>
+  </div>
+  <div class="box2">
+    <button>Buy Now</button>
+  </div>
+
+  <div class="box3">
+    <span>Promise</span>
+    <br>
+    <ul>
+      <li>✓ Finest quality</li>
+      <li>✓ FREE deliver</li>
+      <li>✓ FREE returns</li>
+    </ul>
+  </div>
+</div>
+</div>
+</div>
+
+<!--상품 상세컷-->
+<!--연관 상품-->
+<div id="sublike">
+  <h1>You Might Also Like</h1>
+  
+  <div class="smallbox"><a href="#"><img src="img/plant11.jpg" alt="plant1"></a>
+    <div class="textbox">
+      <p><a href="#">Snake Plant Laurentii</a>
+        <br><span>$28 - 88</span></p>
+      </div>
+    </div>
+    <div class="smallbox"><a href="#"><img src="img/plant12.jpg" alt="plant2"></a>
+      <div class="textbox">
+        <p><a href="#">Parlor Palm</a>
+          <br><span>$28 - 48</span></p>
+        </div>
+      </div>
+      <div class="smallbox"><a href="#"><img src="img/plant3.jpg" alt="plant3"></a>
+        <div class="textbox">
+         <p><a href="#">
+         ZZ Plant</a>
+         <br><span>$38 - 108</span></p>
+       </div>
+     </div>
+     <div class="smallbox"><a href="#"><img src="img/plant4.jpg" alt="plant4"></a>
+      <div class="textbox">
+        <p><a href="#">
+        Jade Plant</a>
+        <br><span>$58 - 60</span></p>
+      </div>
+    </div>
+    <div class="smallbox"><a href="#"><img src="img/plant5.jpg" alt="plant5"></a>
+      <div class="textbox">
+        <p><a href="#">
+        Tradescantia Pink Panther</a>
+        <br><span>$28 - 48</span></p>
+      </div>
+    </div>
+  </div>
+  <!--상품 상세 이미지컷-->
+  <!--상품 설명 tab-->
+  <div id="sub_main">
+    <ul id="topfix">
+      <li id="tab_menu1" class="on"><a href="#sub-body1">Product Detail</a></li>
+      <li id="tab_menu2"><a href="#planter">Shopping Guide</a></li>
+      <li id="tab_menu3"><a href="#care">Care Guide</a></li>
+      <li class="tab_menu4"><a href="#review">Review</a></li>
+      <li class="tab_menu5"><a href="#shipping">Shipping Info.</a></li>
+    </ul>
+  </div>
+
+  <!--상품 상세 설명-->
+  <div id="sub_body1">
+   <h2>Product Detail</h2>
+   <p>Monsteria Deliciosa</p>
+   <div id="bodyimg1">
+     <img src="img/Mons.jpg" alt="bodyimg1">
+   </div>
+   <div class ="imgtext">
+     <p>Tropical Americas
+      Monstera deliciosa is a species of evergreen tropical vine that is a part of Araceae, the aroid family.
+      Native to the Tropical Americas, it is one of the few aroids which produces edible fruit, hence the species epithet deliciosa.
+    </p>
+  </div>
+  <div id="bodyimg2">
+    <img src="img/product3.jpg" alt="bodyimg2">
+  </div>
+  <div id="bodyimg3">
+    <img src="img/Mons1.jpg" alt="bodyimg3">
+  </div>
+  <div class = "imgtext">
+    <p>However, it's incredibly rare that a Monstera will flower or produce fruit indoors. Instead, this plant is famous for its beautiful
+      broad green leaves with natural leaf-holes, called fenestrations,
+      which have led to the rise of its nickname, ‘swiss cheese plant’. These holes are theorized to maximize sun fleck
+    capture on the forest floor by increasing the spread of the leaf while decreasing the mass of leaf cells to support. </p>
+  </div>
+</div>
+
+<!--상품가이드-->
+<!--화분-->
+<div id = "planter">
+  <h3>Planter</h3>
+  <div id = "style">
+    <p class="Guide">Style Guide</p>
+  </div>
+  
+  <div id ="bigplanter1"><img src ="img/planter4black.jpg" alt="planter1"></div>
+  <div class = "planter1">
+    <img src ="img/planter4rosewood.jpg" alt="planter3"></div>
+    <span class="name">Grant</span>
+    <div class="color1"><img src="img/color1.jpg" alt="color1"></div>
+    
+    
+    <div id ="bigplanter2"><img src ="img/planter5beige.jpg" alt="planter6"></div>
+    <div class="planter2"><img src ="img/planter5rosewood.jpg" alt="planter9"></div>
+    <span class="name">Hyde</span>
+    <div class="color1"><img src="img/color1.jpg" alt="color1"></div>
+
+    <div id ="bigplanter3"><img src ="img/planter6beige.jpg" alt="planter11"></div>
+    <div class="planter3"><img src ="img/planter6gray.jpg" alt="planter13"></div>
+    <span class="name">Upcycled</span>
+    <div id="color2"><img src="img/color2.jpg" alt="color2"></div>
+    
+    <div id="size">
+      <div class="plantsize"><img src="img/plant1.jpg" alt="medium"></div>
+      <div class="plantsize"><img src="img/plant2.jpg" alt="medium"></div>
+    </div>
+
+    <figure id="size1">
+      <figcaption id="size2">Size Guide</figcaption>
+      <table class="sizeguide">
+       <tr>
+         <th>Medium</th>
+         <td>Approximately 7" in diameter, fits plants in a 6" grow pot or smaller<td>
+         </tr>
+         <tr>
+          <th>Large</th>
+          <td>Approximately 10-12" in diameter, fits plants in a 10" grow pot or smaller<td>
+          </tr>
+        </table>
+      </figure>
+    </div>
+
+    <!--케어 가이드-->
+    <div id="care">
+      <h5>Care Guide</h5>
+      <div class ="careimgbox"><img src="img/careimg.jpg" alt="care"></div>
+      <figure id="care1">
+        <figcaption id="care2">Plant Care</figcaption>
+        <table class="careguide">
+          <tr>
+            <th><img src="img/sun.png" alt="sun"></th>
+            <td>Thrives in bright indirect to medium light.</td></tr>
+            <tr>
+              <th><img src = "img/water.png" alt="water"></th>
+              <td>Water every 1-2 weeks, allowing soil to dry out between waterings.
+                <br> Expect to water more often in brighter light and less often in lower light. <br>
+                Monsteras can benefit from filtered water or leaving water out overnight before using.<br></td></tr>
+
+                <tr>
+                  <th><img src = "img/glasses.png" alt="glasses"></th>
+                  <td>The Monstera is famous for its natural leaf holes, or fenestrations.<br> The holes are theorized to maximize sun capture <br>
+                    by increasing the spread of the leaf while decreasing the mass of leaf cells to support.<br></td>
+                  </tr>
+                </table>
+              </figure>
+              <figure id="care3">
+                <figcaption id="care4"><img src="img/warning.jpg" alt="warning">Sad Plant Signs</figcaption>
+                <p>Leaves turning brown and crispy at the edges:<br>
+                  → Thirsty plant, underwatered, or high salt build up<br>
+                  → Wilting plant, dry potting mix:<br>
+                  → Underwatered, or pot-bound<br>
+                  → Yellowing leaves or black stems, wet potting mix:<br>
+                → Overwatered</p></p>
+              </figure>
+            </div>
+
+            <!--.리뷰-->
+            <div id="bigreview">
+              <div id="review">
+                <figure id="review1">
+                  <table class="reviewtable">
+                    <tr>
+                      <td class="center"><strong>Name</td>
+                        <td class="center"><strong>Grade</td>
+                          <td class="center"><strong>Review</td>
+                          </tr>
+                          <tr>
+                            <th>Rebecca</th>
+                            <td>★★★★☆</td>
+                            <td>Awesome. Pot</td>
+                          </tr>
+                          <tr>
+                            <th>Mina</th>
+                            <td>★★★★★</td>
+                            <td>I ordered the Monstera Deliciosa / Medium / Hyde / Terracotta for my mother-in-law's Christmas gift.
+                              My Mom looks happy.
+                            </td>  
+                          </tr>
+                          <tr>
+                            <th>David</th>
+                            <td>★★★☆☆</td>
+                            <td>I bought a recycled flowerpot and it's eco-friendly!
+                            </td>  
+                          </tr>
+                          <tr>
+                            <th>Mina</th>
+                            <td>★★★★★</td>
+                            <td>I ordered the Monstera Deliciosa / Medium / Hyde / Terracotta for my mother-in-law's Christmas gift.
+                              My Mom looks happy.
+                            </td>  
+                          </tr>
+                          <tr>
+                            <th>Peter</th>
+                            <td>★★★★★</td>
+                            <td>I think it's good for children's education!
+                            </td>  
+                          </tr>
+
+                        </table>
+
+                      </div>
+                    </div>
+                    <!--배송 가이드-->
+                    <div id ="shipping">
+                      <h6>Shipping Info.</h6>
+                      <p>The Sill is committed to reducing its environmental footprint. Nearly all packages ship via UPS® carbon neutral shippingThis means we (not you) pay a contractual rate per package that ensures we offset our shipping footprint and reduce our annual emissions as a company.
+
+                      View our full shipping policy.</p>
+                    </div>
+
+
+                    <!--footer3-->
+                    <footer>
+                      <div class="brick2">
+                        <div id = "allbox">
+                          <div id="box1">
+                            <img src="img/people.png" alt="people">
+                            <h1>Visit Us In A Store Near You</h1>
+                            <p>Our stores around the US are open for plant shopping, repotting, curbside pickup, in-person workshops, and more.</p>
+                            <span><a href="#">Find Your Local Store
+                              <i class="fa-solid fa-arrow-right-long"></i>
+
+                            </a></span>
+                          </div>
+                          
+                          <div class="box2">
+                            <div class="textbox3">
+                              <p>Customer Service</p>
+                              <ul>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Shipping & Handling</a></li>
+                                <li><a href="#">30-Day Guarantee</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                              </ul>
+                            </div>
+                            <div class="textbox3">
+                              <p>Resources</p>
+                              <ul>
+                                <li><a href="#">Find Your Plant 🌱</a></li>
+                                <li><a href="#">Plants Care Library</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Workshops</a></li>
+                              </ul>
+                            </div>
+                            <div class="textbox3">
+                              <p>My Sill</p>
+                              <ul>
+                                <li><a href="#">My Account</a></li>
+                                <li><a href="#">Redeem Subscription</a></li>
+                                <li><a href="#">Rewards Program</a></li>
+                                <li><a href="#">Track My Order</a></li>
+                              </ul>
+                            </div>
+                            <div class="textbox3">
+                              <p>Explore</p>
+                              <ul>
+                                <li><a href="#">Our Story</a></li>
+                                <li><a href="#">Locations</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Corporate Gifting</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="box2">
+                            <h2>Get the Dirt.</h2>
+                            <p>Get plant care tips, exclusive offers, & event invites straight to your inbox. No spam ever.</p>
+                            <form>
+                              <input type="text" placeholder="Enter your email here..." >
+                              <button>Subscribe</button>
+                            </form>    
+                            <div class="servicetext">
+                              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            </div>
+                            <div class="servicetext"> 
+                              <a href="#"><i class="fa-brands fa-twitter"></i></a></div>
+                              <div class="servicetext">
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+                                <div class="servicetext">
+                                  <a href="#"><i class="fa-brands fa-pinterest-p"></i></a></div>
+                                  <div class="servicetext">
+                                    <a href="#"><i class="fa-brands fa-youtube"></i></a></div>
+                                    <div class="servicetext">
+                                      <a href="#"><i class="fa-brands fa-tiktok"></i></a></div>
+                                      <div class="servicetext">
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a></div>
+
+
+                                      </div>
+                                      
+                                    </div>
+                                    
+                                  </div>
+
+                                  
+                                  <!--footer4-->
+                                    <div id ="lastbox">
+                                      <div class="box_container">
+                                      <div id="lasttext1">
+                                      <p class="number3">Copyright 2022 - The Sill, Inc.</p>
+                                    </div>
+                                    <div id="lasttext2">
+                                      <ul>
+                                        <li><a href="#">Terms of Use</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Accessibility</a> </li>
+                                        <li><a href="#">Do Not Sell My Info</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                  </div>
+                               </div>
+                             </footer>
+
+                           </body>
+                           </html>

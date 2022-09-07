@@ -1,0 +1,81 @@
+﻿@charset "UTF-8";
+
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+*{font-family:"맑은 고딕";}
+*{box-sizing:border-box;}
+*{margin:0; padding:0;}
+ul,ol,li{list-style:none;margin:0;padding:0;}
+
+/*header*/
+.top {width:100%; height:25px; background-color:rgb(0, 154, 123);margin:0 auto;} 
+.top > #toplogo {color:#fff; text-align:center;}
+.bottom {width:1260px; height:150px; margin:0 auto; }
+
+/*logo*/
+#logo {width:195px; height:48px; float:left; background-color:green; margin:25px 0 0 0;}
+#logo > a  img {width:100%; height:100%;}
+
+/*login*/
+.imgbox1 {width:125px; height:30px;display:inline-block; margin:25px 0 0 0px;}
+.imgbox1 > a > img {width:30px; height:30px;float:left;}
+.imgbox3 {width:30px; height:30px;display:inline-block; margin:25px 0 0 0px;}
+.imgbox3 > a > img {width:100%; height:100%;}
+.imgbox2 {width:60px; height:30px; display:inline-block; margin:25px 0 0 0px;}
+.imgbox2 > a > img {width:30px; height:30px;float:left;}
+.text1 > a {text-decoration: none;color:#000;}
+.text2 > a {text-decoration: none; font-style:italic;color:#817f7c;}
+
+header > .bottom > div:nth-of-type(2) {margin:0 0 0 520px;}
+
+.text1 {font-size:10px;float:left;margin:5px 0 0 0; color:#2d2a24;}
+.text2 {font-size:10px;float:left;margin:0px 0 0 0; color:#817f7c;}
+
+/*nav*/
+nav {width:1200px; height:41px;float:left; margin:20px 0 0 0;}
+nav {text-align:center; font-size:12px;}
+
+nav > ul {color:rgb(0 171 132); font-style:italic;font-size:17px; font-weight:bold;}
+nav > ul > li {display:inline-block; margin:10px 50px 0 5px; float:left;}
+nav > ul > li > a {font-size:17px; font-weight:bold; text-decoration:none;color:#000;}
+nav > ul > li > a:hover {color:rgb(0 171 132); font-style:italic;}
+
+
+/*footer3*/
+.brick2 {width:100%; height: 550px; background-color:#f9f8f7; margin:0 auto; background-image:url("../img/background3.jpg");background-size:contain; background-repeat:no-repeat;}
+
+#allbox {width:1210px; height:450px;margin:0 auto;}
+#allbox > #box1 {width:1210px; height:180px; display:inline-block;margin:0 auto;border-bottom:1px solid rgba(150, 149, 149,0.3);}
+#allbox > #box1 > img {height:180px;float:left;padding:30px;}
+#allbox > #box1 > h1 {font-size:24px;margin:30px 0 0 50px;}
+#allbox > #box1 > p {font-size:12px; width:700px; margin:20px 0 10px 0;}
+#allbox > #box1 > span a {font-size:20px;}
+#allbox > #box1 > span > a {text-decoration:none;color:#000;}
+#allbox > #box1 > span > a:hover {color:green;font-style:italic;}
+#allbox > div:nth-of-type(2) {width:750px; height:222px; display:inline-block; float:left;margin:10px 10px 0 0;}
+#allbox > .box2 > .textbox3 {width:150px; height:210px;  display:inline-block;margin:60px 10px 0 10px;}
+#allbox > .box2 > .textbox3 > p {font-style:italic;color:#000;font-size:12px;font-weight:bold;}
+#allbox > .box2 > .textbox3 > ul > li {margin:10px 0 0 0; font-size:12px;}
+#allbox > .box2 > .textbox3 > ul > li > a {text-decoration:none; color:#000;font-family:"맑은 고딕";}
+#allbox > .box2 > .textbox3 > ul > li > a:hover {color:green; font-style:italic;}
+#allbox > div:nth-of-type(3) {width:350px; height:322px; display:inline-block;margin:20px 0 0 70px;}
+#allbox > .box2 > h2 {font-size:24px; color:#000; margin:10px;}
+#allbox > .box2 > p {margin:10px 0 0 0; font-size:16px;margin:10px;}
+
+form > input {width:309px; height:50px;margin:30px 0 0 10px;}
+form > button {width:309px; height:50px;margin:20px 0 0 10px;background-color:rgb(0 171 132); color:#fff;border:0;}
+
+.servicetext {margin:10px 10px 0 10px;display:inline-block;}
+.servicetext > a {text-decoration:none;color:#000;}
+.servicetext > a:hover{color:green;}
+
+
+/*footer4*/
+#lastbox {width:100%;height:30px;background-color:rgb(0 171 132);}
+.box_container {width:1210px; margin:0 auto; display:flex;justify-content:space-between;}
+#lasttext1 > .number3 {height:24px; margin:5px 0 0 0; font-size:12px;color:#fff;}
+#lasttext2 {margin-top:5px;font-size:12px;}
+
+#lasttext2 > ul {display:flex; flex-direction:row;}
+#lasttext2 > ul > li {margin-right:10px;}
+#lasttext2 > ul > li:nth-of-type(4) {margin-right:0px;}
+#lasttext2 >  ul > li > a {text-decoration:none; color:#000;color:#fff;}
